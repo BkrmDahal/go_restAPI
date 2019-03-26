@@ -1,2 +1,4 @@
-# go_restAPI
-complete rest API written on go, with JWT for auth, mongobd for database and S3 for file storage.
+# RestAPI written in go
+## Basic
+1. [Package manager](https://github.com/golang/go/wiki/Modules)
+

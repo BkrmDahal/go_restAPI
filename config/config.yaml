@@ -1,0 +1,5 @@
+PORT:
+  :8000
+
+MONGO_URL: 
+  "mongodb://admin:admin1234@go-shard-00-00-8evmq.mongodb.net:27017,go-shard-00-01-8evmq.mongodb.net:27017,go-shard-00-02-8evmq.mongodb.net:27017/test?ssl=true&replicaSet=go-shard-0&authSource=admin&retryWrites=true"
