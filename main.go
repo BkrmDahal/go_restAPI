@@ -19,6 +19,9 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/signup", controller.Signup)
+	mux.HandleFunc("/login", controller.Login)
+	mux.HandleFunc("/user", controller.User)
+	mux.HandleFunc("/upload", controller.UploadFile)
 	mux.HandleFunc("/welcome", welcome)
 
 	// start the server at 5000

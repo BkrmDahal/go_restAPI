@@ -1,2 +1,4 @@
 PORT:
   :5000
+S3_BUCKET:
+  testing-go

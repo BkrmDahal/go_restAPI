@@ -11,3 +11,6 @@ go build
 ./go_restAPI
 ```
 
+## aws
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/go/example_code/s3
+

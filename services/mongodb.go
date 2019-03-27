@@ -19,3 +19,4 @@ func mongoClient(url string) *mongo.Client {
 
 var client = mongoClient(mongoURL)
 var Db_user = client.Database("basic_information").Collection("users")
+var Db_token = client.Database("basic_information").Collection("token")
